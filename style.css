@@ -1,0 +1,42 @@
+.Button-1 {
+  display: block;
+  width: 256px;
+  height: 96px;
+  color: #ffffff;
+  background-color: #aaaaff;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  line-height: 96px;
+  border-radius: 32px;
+  margin-top: 48px;
+
+  transition-duration: 0.4s;
+}
+.Button-1:hover {
+  transform: rotate(8deg);
+  background-color: #80aa80;
+}
+
+.Button-2 {
+  display: block;
+  width: 256px;
+  height: 96px;
+  color: #ffffff;
+  background-color: #aaaaff;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  line-height: 96px;
+  border-radius: 32px;
+  margin-top: 48px;
+
+  transition-delay: 0.2s;
+  transition-property: background;
+  transition-duration: 0.4s;
+}
+.Button-2:hover {
+  transform: scale(1.5);
+  border-radius: 16px;
+  background-color: #80aa80;
+}
